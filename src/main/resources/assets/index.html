@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="main">
+<head>
+    <meta charset="UTF-8">
+    <title>DropeWizardBasicHttpAuth</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="css/dopstyle.css"/>
+
+    <!-- Scripts -->
+    <script src="scripts/scripts.js"></script>
+
+    <!-- Application init -->
+    <script src="angular/app.js"></script>
+
+    <!-- Services -->
+    <script src="angular/services/Network.js"></script>
+    <script src="angular/services/AuthenticationService.js"></script>
+    <script src="angular/services/HomeService.js"></script>
+
+    <!-- Controllers -->
+    <script src="angular/controllers/states/LoginController.js"></script>
+    <script src="angular/controllers/states/HomeController.js"></script>
+    <script src="angular/library/sha1.js"></script>
+</head>
+<body ng-cloak class="ng-cloak">
+<div ui-view></div>
+</body>
+</html>
